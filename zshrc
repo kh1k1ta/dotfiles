@@ -105,4 +105,3 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 alias q="exit"
 alias clip="xclip -sel c"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
