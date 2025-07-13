@@ -1,4 +1,4 @@
 nvim ~/.config/nvim
 zshrc ~/.zshrc
 gitconfig ~/.gitconfig
-keyd /etc/keyd
+keyd /etc/
