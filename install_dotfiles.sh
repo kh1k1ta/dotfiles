@@ -19,7 +19,7 @@ while read -r source target; do
 
   # link
   echo "Creating symlink: $src_path -> $target_path"
-  ln -s "$src_path" "$target_path"
+  sudo ln -s "$src_path" "$target_path"
 done <"$LIST_FILE"
 
 echo "Dotfiles installation completed!"
